@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rock+Salt&display=swap');
+body {
+  background-image:url("images/background-img.jpg");
+  background-repeat: repeat;
+  background-size:cover;
+}
+nav {
+  font-family: "Rock Salt", cursive;
+  color: rgb(158, 155, 153);
+  box-sizing: border-box;
+  /* padding-top: 15px; */
+  font-size: 24px;
+  display: flex; 
+  justify-content: center;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.3), 0 0 5px rgba(255, 255, 255, 0.3), 0 0 8px rgba(255, 255, 255, 0.3);
+  animation: neonGlow 1.5s infinite alternate;
+}
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3), 0 0 5px rgba(255, 255, 255, 0.3), 0 0 8px rgba(255, 255, 255, 0.3);
+  }
+  to {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 0 0 8px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+}
+#drum-wrapper-1 {
+  margin: 0px;
+  padding: 0px;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  height: 16vh;
+  align-items: center;
+}
+  #drum-wrapper-2 {
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 24vh;
+    align-items: center;
+  }
+
+#drum-wrapper-3 {
+  margin: 0px;
+  padding: 0px;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  height: 24vh;
+  align-items: center;
+}
+  .key {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+    margin: 0px 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(59, 59, 59);
+    opacity: 0.5;
+    color: white;
+  }
